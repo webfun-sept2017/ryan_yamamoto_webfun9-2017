@@ -1,0 +1,113 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#wrapper{
+  width: 970px;
+  height: 1020px;
+  background: linear-gradient(#432940, #6b4d5e, #432940);
+  margin: auto;
+  font-family: sans-serif;
+}
+
+#header{
+  background-color: snow;
+  padding: 10px 20px;
+  height: 50px;
+}
+
+#header h1{
+  font-family: Comic Sans MS;
+}
+
+#header h1, #header h2{
+  display: inline;
+}
+
+#header h2{
+  float: right;
+  padding-top: 10px;
+}
+
+#top{
+  width: 970px;
+  vertical-align: top;
+}
+
+#profile_pic{
+  border: 8px solid grey;
+  margin: 20px 0px 0px 20px;
+  display: inline-block;
+}
+
+p{
+  padding: 10px;
+}
+
+#top .box{
+  width: 470px;
+  height: 286px;
+  vertical-align: top;
+  margin: 20px 0px 0px 20px;
+}
+
+.box{
+  background: linear-gradient(to right, #999696, #807e7e);
+  background-color: white;
+  display: inline-block;
+  margin: 20px 0px 20px 20px;
+}
+
+.box h2, .box h3{
+  background: linear-gradient(#999696, #807e7e ,#999696);
+  padding: 10px;
+  color: white;
+}
+
+.box img{
+  width: 100%;
+  height: auto;
+}
+
+#body .box{
+  width: 30%
+  vertical-align: top;
+}
+
+#body .box p{
+  height: 220px;
+}
+
+.logos li img{
+  width: 40px;
+  height: 40px;
+  display: inline;
+  margin: 5px 5px 0px 5px;
+}
+
+.logos{
+  padding: 5px;
+}
+
+.logos li{
+  display: inline;
+}
+#footer{
+  height: 50px;
+  background-color: #efeaea;
+  text-align: center;
+  padding: 20px;
+}
+
+button{
+  color: white;
+  background-color: green;
+  border: 1px solid darkgreen;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  display: block;
+}

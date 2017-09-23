@@ -1,0 +1,198 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#wrapper{
+  width: 970px;
+  background: linear-gradient(#265176, #557b9c);
+  font-family: arial;
+}
+
+img{
+  height: 90px;
+  padding: 20px;
+}
+
+.topright{
+  vertical-align: top;
+  display: inline-block;
+}
+
+.textsize{
+  margin-left: 380px;
+  margin-top: 10px;
+}
+
+.textsize p{
+  color: white;
+}
+
+.textsize span{
+  color: black;
+}
+
+.textsize a{
+  color: gold;
+}
+
+#search{
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 30px;
+  background-color: grey;
+  margin-left: 320px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px black;
+}
+
+#search input{
+  height: 30px;
+  width: 160px;
+  border: 2px solid grey;
+  text-align: center;
+  color: grey;
+  font-size: 10px;
+}
+#search button{
+  background-color: #265176;
+  color: white;
+  height: 30px;
+  width: 40px;
+  border-radius: 5px;
+}
+
+#menu{
+  background-color: #3b78ad;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  margin-left: 50px;
+  box-shadow: 3px 3px 1px black;
+  border-radius: 5px;
+  width: 800px;
+  height: 20px;
+}
+
+#menu a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin: 15px;
+}
+
+#navbar{
+  margin-left: 140px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+#navbar li{
+  margin-top: 10px;
+  text-align: center;
+  color: gold;
+  list-style-type: none;
+}
+
+#navbar a{
+  color: white;
+}
+
+span{
+  color: gold;
+  padding-right: 3px;
+}
+
+#body{
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  width: 680px;
+  padding-top: 20px;
+}
+
+#body .first{
+  color: white;
+  font-size: 14px;
+}
+
+p.second{
+  color: gold;
+  font-size: 18px;
+  font-style: italic;
+  padding: 10px;
+}
+
+p.third{
+  color: white;
+  font: 24;
+  padding-top: 10px;
+}
+
+#bottom{
+  background-color: white;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.one{
+  vertical-align: top;
+  width: 400px;
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.two{
+  vertical-align: top;
+  width: 400px;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+ul.list{
+  margin-left: 70px;
+  list-style: square;
+}
+
+.list a{
+  color: lightskyblue;
+  text-decoration: none;
+}
+
+canvas{
+  background-color: #73a7d5;
+  width: 100%;
+  height: 3px;
+}
+
+#footer{
+  border: solid black 1px;
+  text-align: center;
+}
+
+#footer li{
+  display: inline-block;
+  padding-right: 30px;
+  margin-top: 35px;
+}
+
+#footer a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  color: #b5d0e8;
+
+}
+
+#footer p{
+  color: #b5d0e8;
+  font-size: 8px;
+  margin-bottom: 10px;
+}
+
+.PyPI{
+  color: lightskyblue;
+  text-decoration: none;
+  font-size: 10px;
+}
