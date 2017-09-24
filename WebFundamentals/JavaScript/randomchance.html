@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script> "use strict;"
+
+    function randomchance (numberofquarters){
+      var winner = Math.floor(Math.random() * 100) +1;
+      var quarterswon = 0;
+      while(numberofquarters > 0){
+        var pullthelever = Math.floor(Math.random() * 100) +1;
+        if(pullthelever === winner){
+          quarterswon = Math.trunc(Math.random() * 51) + 50;
+          break;
+        }
+        numberofquarters -= 1;
+      }
+      return numberofquarters+quarterswon;
+    }
+    console.log(randomchance(30));
+
+    </script>
+  </head>
+</html>
