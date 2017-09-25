@@ -1,0 +1,77 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+#wrapper{
+  width: 400px;
+  border: 1px solid;
+  padding: 30px;
+
+}
+
+#one{
+  border-bottom: 1px solid;
+}
+
+#one h1{
+  /*display: inline-block;*/
+  vertical-align: top;
+  text-align: center;
+}
+
+#one button{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#one p{
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.red{
+  color: red;
+}
+
+#two{
+  border-bottom: 1px solid;
+  padding-top: 40px;
+}
+
+#two h1{
+  vertical-align: top;
+  text-align: center;
+}
+
+#two button{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#two p{
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+#three{
+  padding-top: 40px;
+}
+
+#three h1{
+  display: block;
+
+}
+
+#three button{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#three h1{
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
