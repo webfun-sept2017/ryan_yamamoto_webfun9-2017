@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Users</title>
+    <link rel="stylesheet" type="text/css" href="users.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $("button").click(function(){
+        $('table').append('<tr>'+
+        '<td>' + $("input#firstname").val() + '</td>' +
+        '<td>' + $("input#lastname").val() + '</td>'+
+        '<td>' + $("input#email").val() + '</td>' +
+        '<td>' + $("input#phone").val() + '</td>'+'</tr>')
+        });
+      });
+
+    </script>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email Address</th>
+        <th>Contact #</th>
+      </tr>
+    </table>
+    <h2>Add User</h2>
+    <form method="post">
+      <p id="firstname">First Name:<input id="firstname" type="text" name="firstname" value=""></p>
+      <p id="lastname">Last Name:<input id="lastname" type="text" name="lastname" value=""></p>
+      <p id="email">Email Address:<input id="email" type="text" name="email" value=""></p>
+      <p id="phone">Contact #:<input id="phone" type="text" name="phone" value=""></p>
+    </form>
+    <button>Add User</button>
+  </body>
+</html>
