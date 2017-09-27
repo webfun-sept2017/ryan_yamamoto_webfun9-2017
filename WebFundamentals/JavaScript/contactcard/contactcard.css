@@ -1,0 +1,47 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+#wrapper{
+  width: 400px;
+  padding left: 30px;
+  display: inline-block;
+}
+
+button{
+  display: inline-block;
+  width: 100px;
+  padding: 5px;
+}
+
+input{
+  width: 200px;
+  border: 1px solid;
+  padding: 5px;
+  margin-bottom: 20px;
+
+}
+
+textarea{
+  border: 1px solid black;
+}
+
+#card{
+  width: 350px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contact_card{
+  width: 350px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#click{
+  display: none;
+}
