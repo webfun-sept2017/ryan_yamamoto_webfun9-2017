@@ -18,7 +18,27 @@
       $('#two p').click(function(){
         $('#two p').html('<p>YO!</p>');
       });
-
+      $(document.body).click(function () {
+        if ( $( "#one" ).is( ":hidden" ) ) {
+        $( "#one" ).slideDown( "slow" );
+        } else {
+          $( "#one" ).hide();
+        }
+      });
+      $("#four h1").text("California");
+      $("#ball").val("soccer ball");
+      $("#six p").before("BEFORE");
+      $("#six p").after("AFTER");
+      $("#five h1").click(function(){
+        $("#five img").fadeOut("slow", function(){
+        });
+      });
+      $("#six button").click(function(){
+        $("#five img").fadeIn("slow", function(){
+        });
+      });
+      var nothing = $("#two img").attr("src");
+      $("#four p").text(nothing);
     });
 
     </script>
@@ -44,6 +64,27 @@
         <p>Click the button to append a new paragraph</p>
       </div>
     </div>
+
+    <div id="four">
+      <h1>Add Class</h1>
+      <button>AddClass</button>
+      <p>Click the button to add class "red" to this paragraph</p>
+    </div>
+
+    <div id="five">
+      <h1>Slidetoggle</h1>
+      <button>Slidetoggle</button>
+      <p>Click the button to slidetoggle a hidden image</p>
+      <img src="http://pngimg.com/uploads/basketball/basketball_PNG1097.png">
+      <input type="text" value="ball" id="ball">
+    </div>
+
+    <div id="six">
+      <h1>Append</h1>
+      <button>Append</button>
+      <p>Click the button to append a new paragraph</p>
+    </div>
+  </div>
 
   </body>
 </html>
