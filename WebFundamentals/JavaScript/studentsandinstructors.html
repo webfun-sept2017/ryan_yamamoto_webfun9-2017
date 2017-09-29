@@ -10,11 +10,11 @@
       {first_name: "Mark", last_name: "Guillen"},
       {first_name: "KB", last_name: "Tonel"},
     ]
-    console.log(students[0].first_name + " " + students[0].last_name);
-    console.log(students[1].first_name + " " + students[1].last_name);
-    console.log(students[2].first_name + " " + students[2].last_name);
-    console.log(students[3].first_name + " " + students[3].last_name);
-
+    function names(arr){
+      for(var i = 0; i < arr.length; i++)
+        console.log(arr[i].first_name, arr[i].last_name);
+    }
+    names(students)
     </script>
   </head>
   <body>
