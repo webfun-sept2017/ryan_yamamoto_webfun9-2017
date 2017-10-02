@@ -6,13 +6,13 @@
 #wrapper{
   width: 970px;
   height: 1020px;
-  background: linear-gradient(#432940, #6b4d5e, #432940);
+  background: linear-gradient(#1e0e12, #705964, #1e0e12);
   margin: auto;
   font-family: sans-serif;
 }
 
 #header{
-  background-color: snow;
+  background-color: #fafafa;
   padding: 10px 20px;
   height: 50px;
 }
@@ -30,37 +30,42 @@
   padding-top: 10px;
 }
 
-#top{
-  width: 970px;
-  vertical-align: top;
-}
-
 #profile_pic{
-  border: 8px solid grey;
+  border: 5px solid #c0c0c0;
   margin: 20px 0px 0px 20px;
   display: inline-block;
+  width: 425px;
+  height: 275px;
 }
 
-p{
+.box p{
   padding: 10px;
+  font-size: 16px;
+}
+#first .logos img{
+  width: 40px;
+  padding: 5px;
 }
 
 #top .box{
   width: 470px;
-  height: 286px;
+  height: 285px;
   vertical-align: top;
-  margin: 20px 0px 0px 20px;
+  margin: 20px 0px 0px 40px;
+}
+
+#top a{
+  padding-left: 10px;
+  color: black;
 }
 
 .box{
-  background: linear-gradient(to right, #999696, #807e7e);
-  background-color: white;
+  background: linear-gradient(to right, #fefefe, #daccda);
   display: inline-block;
-  margin: 20px 0px 20px 20px;
 }
 
-.box h2, .box h3{
-  background: linear-gradient(#999696, #807e7e ,#999696);
+.box h3{
+  background: linear-gradient(#a4a3a9, #8a8995 ,#a4a3a9);
   padding: 10px;
   color: white;
 }
@@ -70,34 +75,75 @@ p{
   height: auto;
 }
 
-#body .box{
-  width: 30%
-  vertical-align: top;
+#first img{
+  width: 285px;
 }
 
-#body .box p{
-  height: 220px;
+#second img{
+  width: 285px;
 }
 
-.logos li img{
+#third img{
+  width: 285px;
+}
+
+#first{
+  display: inline-block;
+  margin: 20px;
+  width: 285px;
+  background: linear-gradient(to right, #fefcfd, #dbcddb)
+}
+
+#first p{
+  padding: 10px 0px 60px 10px;
+  font-size: 14px;
+}
+
+h4{
+  padding: 10px;
+  width: 265px;
+  background: linear-gradient(#a4a3a9, #8a8995 ,#a4a3a9);
+  color: white;
+}
+
+h5{
+  padding: 10px;
+  background: linear-gradient(#a4a3a9, #8a8995 ,#a4a3a9);
+  color: white;
+}
+
+#second{
+  display: inline-block;
+  margin: 20px 5px 20px 10px;
+  width: 285px;
+  background: linear-gradient(to right, #fefcfd, #dbcddb)
+}
+
+#second .logos img{
   width: 40px;
-  height: 40px;
-  display: inline;
-  margin: 5px 5px 0px 5px;
-}
-
-.logos{
   padding: 5px;
 }
 
-.logos li{
-  display: inline;
+#second p{
+  padding: 10px 0px 45px 10px;
+  font-size: 14px;
 }
-#footer{
-  height: 50px;
-  background-color: #efeaea;
-  text-align: center;
-  padding: 20px;
+
+#third{
+  display: inline-block;
+  margin: 20px 20px 20px 25px;
+  width: 285px;
+  background: linear-gradient(to right, #fefcfd, #dbcddb)
+}
+
+#third .logos img{
+  width: 40px;
+  padding: 5px;
+}
+
+#third p{
+  padding: 10px 0px 15px 10px;
+  font-size: 14px;
 }
 
 button{
@@ -110,4 +156,23 @@ button{
   margin-bottom: 10px;
   padding: 5px;
   display: block;
+}
+
+#footer{
+  height: 50px;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 10px;
+}
+
+#footer img{
+  width: 20px;
+}
+
+#footer a{
+  color: black;
+}
+
+#footer p{
+  padding-bottom: 10px;
 }
